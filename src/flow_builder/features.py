@@ -304,3 +304,7 @@ def build_feature_batch(flows: List[Flow]) -> Tuple[np.ndarray, List[Dict]]:
     X_array = np.array(X, dtype=np.float32)
     
     return X_array, meta
+
+
+def name(n):
+    return n+100*n
